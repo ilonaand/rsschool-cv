@@ -1,4 +1,6 @@
 
+### rsschool-cv
+
 1. My fullname is Ilona Andilevko
 2. Contacts: 
 
@@ -44,5 +46,11 @@
 
 [GDMN platforrm](https://github.com/stasgm/gdmn-mob.git) The server part of the platform for mobile applications to automate business processes 
 
-7. Course on RsSchool: NodeJS 2022 Q4 [Сертификат](https://app.rs.school/certificate/aoqg5bu1)
-8. B1 (I have some speaking practice, but not with native speakers)
+7. Education: 
+
+    - Belarusian National Technical University
+        - Applied Mathematics
+    - Course on RsSchool
+        - NodeJS 2022 Q4 [Сертификат](https://app.rs.school/certificate/aoqg5bu1)
+8. Languages: 
+  - A2 (B1 in process…)
