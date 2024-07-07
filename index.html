@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>rsschool-cv</title>
+</head>
+<body>
+  <header class="main-header">
+    <div id="avatar"><img src="images/vggg.jpg" alt="avatar" id="logo-avatar"></div> 
+    <div id="Me">
+      <h1>Ilona Andilevko</h1>
+    </div>
+  </header>
+  <main class="main">
+     <nav>
+      <ul class="menu">
+        <li><a href="#contact">Contacts</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#example">Code example</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+     </nav>
+     <section id="contact">
+      <h2>Contacts</h2> 
+        <p> email: ilonaand@gmail.com </p>
+        <p> discord: @Илона#4323(@ilonaand) </p>
+      </section>
+      <section id="about">
+        <h2>About me</h2> 
+         I am a software engineer with 10+ years of professional experience.
+      </section>
+      <section id="skills">
+        <h2>Skills</h2> 
+        <ul>
+          <li>Strong knowledge of js, ts, Delphi, VBScript, Object Pascal</li>
+          <li>Extensive expertise in Node JS and technologies related to it such as Express, Koa</li> 
+          <li>Experience of using different databases like Firebird, MSSQL, Oracle, MySql</li> 
+          <li>Skills to work with different programming paradigms</li> 
+          <li>Self-disciplined, highly motivated and a quick learner</li>
+          <li>Ability to work in a team as well as individually</li>
+        </ul>
+      </section>
+      <section id="example">
+        <h2>Code example</h2> 
+          <div id="code">
+            <p>export const readTextFile = async &#8249;T&#8250;( <br>
+              &#8195;&#8195;fileName: string,<br>
+              &#8195;&#8195;start: number | undefined,<br>
+              &#8195;&#8195;end: number | undefined,<br>
+              &#8195;&#8195;): Promise&#8249;T | string&#8250; => {<br>
+                &#8195;&#8195;const check = await checkFileExists(fileName);<br>
+              <br>
+              &#8195;try {<br>
+                &#8195;&#8195;  const streamRead = createReadStream(fileName, <br>
+                &#8195;&#8195;{ encoding: 'utf8', start: start, end: end });<br>
+                &#8195;&#8195;  const data = [];<br>
+                &#8195;&#8195;  for await (const chunk of streamRead) {<br>
+                &#8195;&#8195;  data.push(chunk);<br>
+                &#8195;&#8195;  }<br>
+                &#8195;&#8195;return data.join('').toString();<br>
+                &#8195; } catch (err) {<br>
+                  &#8195;&#8195;    return `Ошибка чтения файла ${fileName} - ${err} `;<br>
+                  &#8195; }<br>
+                  &#8195; };
+            </p>
+            </div> 
+      </section>
+      <section id="projects">
+        <h2>Recent and major projects</h2> 
+          <a href="https://github.com/stasgm/gdmn-mob.git">GDMN platforrm</a> 
+          The server part of the platform for mobile applications to automate business processes 
+      </section>
+      <section id="education">
+        <h2>Education</h2> 
+        <ul>
+          <li>Belarusian National Technical University - Applied Mathematics</li>
+          <li>Course on RsSchool - NodeJS 2022 Q4 
+             <a href="https://app.rs.school/certificate/aoqg5bu1">Certificate</a>
+          </li> 
+          <li>English - B1</li>
+        </ul> 
+      </section>
+  </main>
+  <footer class="main-footer">
+     <div>
+       <a href="https://github.com/ilonaand">ilonaand</a>
+     </div>
+     <div>
+       <div><a href="https://rs.school/courses/javascript-ru">
+        <img src="https://rs.school/assets/js-secondary-CQOwGo9D.webp" alt="Логотип курса" id="logo-kurs"></a></div>
+     </div>
+     <div><p>2024</p></div>
+  </footer>
+</body>
+</html>
